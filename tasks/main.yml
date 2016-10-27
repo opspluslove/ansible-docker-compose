@@ -1,4 +1,10 @@
 ---
+- name: Install python-yaml
+  apt: name=python-yaml state=latest
+
+- name: Install docker python client
+  pip: name=docker-py state=latest
+
 - name: Install docker-compose
   get_url:
     url: "{{ dockercompose_url }}"
