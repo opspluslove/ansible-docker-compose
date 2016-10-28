@@ -2,8 +2,11 @@
 - name: Install python-yaml
   apt: name=python-yaml state=latest
 
-- name: Install docker python client
-  pip: name=docker-py state=latest version="{{ docker_dockerpy_version }}"
+- name: Install docker and docker-compose python clients
+  pip:
+    name: docker-compose
+    state: latest
+    version: "{{ dockercompose_py_version }}"
 
 - name: Install docker-compose
   get_url:
