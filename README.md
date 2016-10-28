@@ -5,6 +5,11 @@ docker-compose
 
 Ansible role to install docker-compose
 
+Requirements
+------------
+
+- Python 2.6+
+
 Role Variables
 --------------
 
