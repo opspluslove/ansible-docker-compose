@@ -4,9 +4,8 @@
 
 - name: Install docker and docker-compose python clients
   pip:
-    name: docker-compose
+    name: docker-py=={{ docker_py_version }} docker-compose=={{ dockercompose_py_version }}
     state: present
-    version: "{{ dockercompose_py_version }}"
 
 - name: Install docker-compose
   get_url:
