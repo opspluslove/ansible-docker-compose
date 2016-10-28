@@ -10,6 +10,7 @@ Role Variables
 
 ```
 # Defaults
+docker_py_version: 1.9.0
 dockercompose_py_version: 1.9.0rc1
 dockercompose_version: 1.9.0-rc1
 dockercompose_platform: Linux-x86_64
