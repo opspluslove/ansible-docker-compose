@@ -5,11 +5,6 @@ docker-compose
 
 Ansible role to install docker-compose
 
-Requirements
-------------
-
-_TODO_
-
 Role Variables
 --------------
 
