@@ -5,7 +5,7 @@
 - name: Install docker and docker-compose python clients
   pip:
     name: docker-compose
-    state: latest
+    state: present
     version: "{{ dockercompose_py_version }}"
 
 - name: Install docker-compose
