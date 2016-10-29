@@ -3,6 +3,15 @@
 docker-compose
 ======
 
+In your [requirements file](https://galaxy.ansible.com/intro):
+
+```
+- src: opspluslove.docker-compose
+  version: v1.5.1
+```
+
+----
+
 Ansible role to install docker-compose
 
 Requirements
